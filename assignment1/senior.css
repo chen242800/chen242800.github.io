@@ -1,0 +1,23 @@
+/* enlarge font-size */
+p,td,li,button {
+    font-size: 28px;
+}
+
+
+h2 {
+    font-size: 36px; 
+}
+
+h3 {
+    font-size: 34px;
+}
+
+/* enlarge picture-size */
+.designing-card {
+   clear: both;
+   display:block;
+  
+}
+.designing-card-single{
+    margin-bottom: 30px;
+}

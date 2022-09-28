@@ -1,0 +1,55 @@
+
+form {
+    background-color: lightgray;
+    border-style: solid;
+    border-color: lightblue;
+    border-radius: 0.5em;
+    line-height: 2em;
+    padding: 20px;
+}
+label {
+    font-weight: bold;
+
+
+}
+
+.inputbox {
+    width: 90%;
+    padding: 5px 5px;
+}
+#submit {
+    border-style: none;
+    background-color: blue;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    margin-right: 50px;
+    font-size: 18px;
+}
+#submit:hover{
+    background-color: tomato;
+}
+
+#submit:visited{
+    background-color: tomato;
+}
+
+#clear {
+    border-style: none;
+    background-color: darkgray;
+    color: black;
+    height: 26px;
+    cursor: pointer;
+}
+
+#clear:hover{
+    background-color: orange;
+}
+.submitall{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}

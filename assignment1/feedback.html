@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="feedback.css">
+  <link rel="stylesheet" href="../index.css">
+  <title>Feedback Form</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="logo-nav">
+      <h1>Siqi Chen</h1>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="imageMap.html">Image Map</a>
+        <a href="photoGallery.html">Photo Gallery</a>
+        <a href="video.html">Video</a>
+        <!-- <a href="sitemap.html">Site map</a> -->
+        <a href="sourcelog.html">Source log</a>
+        <a href="feedback.html" class="active">Feedback</a>
+      </nav>
+
+    </div>
+
+    <div class="header-title">
+      <h1>Hi, there. I'm Siqi Chen</h1>
+      <h2>Software developer & Website designer</h2>
+
+      <div></div>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="aboutme">
+      <h2 class="feedback">Feedback Form</h2>
+      <form class="" action="mailto:u6857825@anu.edu.au" method="get" enctype="text/plain">
+
+        <label for="yourname">Your name:</label><br>
+        <input class="inputbox" type="text" name="yourname" id="yourname" value="" placeholder="Your name"><br>
+
+        <label for="email">Your email address:</label><br>
+        <input class="inputbox" type="email" name="email" id="email" value="" placeholder="Your email"><br>
+
+        <label>What is your gender?</label><br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="no" value="no">
+        <label for="other">I prefer not to say</label><br>
+
+        <label for="feedback">Please fill in your feedback</label><br>
+        <textarea class="inputbox" name="feedback" rows="8" cols="80" id="feedback"
+          placeholder="Please type your feedback here"></textarea>
+
+        <hr>
+        <div class="submitall">
+          <div class="l">
+            <input id="submit" type="submit" name="submit1" value="Submit it">
+          </div>
+          <!-- <div class="r">
+            <p class="p">submit successfully</p>
+          </div> -->
+        </div>
+      </form>
+    </section>
+
+  </main>
+  <script>
+    var div = document.getElementById('submit');
+    var hint = document.getElementsByClassName('r');
+    div.onclick = function () {
+
+      div.style.color = 'red';
+
+    }
+  </script>
+</body>
+
+</html>

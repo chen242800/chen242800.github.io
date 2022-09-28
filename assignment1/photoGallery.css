@@ -1,0 +1,37 @@
+#gallery{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.projects {
+    background-color: snow;
+}
+.projects-title {
+    padding-top: 5px;
+}
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+.project-card-single{
+    width: 90%;
+    border: 1px solid #ff4d41;
+    border-radius: 1em;
+}
+
+.project-card-single img{
+    width: 90%;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.project-card-single h3{
+    text-align: center;
+}
+.project-card-single p{
+    color: rgb(110, 109, 109);
+    padding: 5px 10px;
+}
+.gap{
+    height: 50px;
+}

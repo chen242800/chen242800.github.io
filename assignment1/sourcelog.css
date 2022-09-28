@@ -1,0 +1,32 @@
+table {
+    margin-top: 50px;
+    border-width: 2px;
+    border-color: blue;
+    width: 100%;
+    text-align: left;
+    border-style: solid;
+    border-collapse: collapse;
+    
+}
+table caption {
+    color: blue;
+    font-size: 13px;
+}
+table th,td {
+    padding: 10px 10px;
+    border-style: none;
+}
+
+table th {
+    background-color: blue;
+    color: white;
+}
+tr:hover{
+    background-color: turquoise;
+    color: tomato;
+}
+
+#responsive-table {
+    overflow-x: auto;
+}
+
