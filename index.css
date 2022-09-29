@@ -3,7 +3,7 @@
 }
 
 header {
-    background-image: url("assignment1/images/header.jpeg");
+    background-image: url("images/header.jpeg");
     background-size: cover;
     /* filter: grayscale(0.000001); */
     height: 500px;
