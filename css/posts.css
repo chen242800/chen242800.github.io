@@ -1,8 +1,42 @@
+body{
+    background: rgb(242, 240, 233);
+    
+}
 header {
     height: 70px;
 }
-.posts {
+.posts h2{
     margin-top: 30px;
-    width: 60%;
-   
+    padding-left: 30px;
+}
+.posts{
+    display: block;
+    margin-top: 50px;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+.posts li {
+    width: 800px;
+    height: 160px;
+    margin-bottom: 10px;
+    /* border: 1px solid lightgray; */
+    border-radius: 0.5em;
+    background-color: white;
+
+}
+
+.posts li img{
+    width: 240px;
+    float: left;
+    border-radius: 0.5em 0 0 0.5em;
+}
+.posts li .content{
+    float: left;
+    width: 5ß  00px;
+    height: 160px;
+    margin-left: 30px;
+    /* background-color: blue; */
 }
