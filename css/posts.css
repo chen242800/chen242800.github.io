@@ -26,6 +26,7 @@ header {
     /* border: 1px solid lightgray; */
     border-radius: 0.5em;
     background-color: white;
+    overflow: hidden;
 }
 .posts a img{
     width: 240px;
@@ -56,5 +57,5 @@ header {
 }
 .contents{
    width: 960px; 
-   margin: 0 auto;
+   margin: 30px auto;
 }

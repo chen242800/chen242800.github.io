@@ -1,0 +1,90 @@
+li{
+    position: relative;
+    width: 350px;
+    height: 247px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+li img{
+    width: 100%;
+}
+li .txt{
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 350px;
+    height: auto; /*!!*/
+    padding: 20px 30px;
+    z-index: 1;/*!!*/
+    color: rgb(255, 255, 255);
+    transition: transform .5s;
+    /* transition: all .5s; */
+}
+li h4{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
+    
+}
+li h5{
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.5em;
+}
+li p{
+    font-size: 14px;
+}
+.iconfont {
+    color: #c7000b;
+    vertical-align: middle; /*!!*/
+    font-size: 20px;
+    font-weight: 700;
+}
+/*  hover affect  */
+/** 1.mask cover-linear gradient **/
+.mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* width and height are same as the box*/
+    width: 350px; 
+    height: 247px;
+    background-image: linear-gradient(
+        transparent,
+        rgba(0,0,0,.6)
+    );
+    opacity: 0;
+    transition: all .5s;
+}
+li:hover .mask{
+    opacity: 1;
+}
+
+/** 2. picture zoom out **/
+li img{
+    transition: all .5s;
+}
+li:hover img{
+    transform: scale(1.2);
+}
+
+/** 3. text move up **/
+li:hover .txt{
+    transform: translateY(-50px);
+}
+
+.post2 .left{
+    width: 470px; 
+    float: left;
+}
+
+.post2 .right{
+    width: 470px;
+    margin-left: 18px;
+    float: left;
+    height: auto;
+    border-right: 1px solid tomato;
+}
+.right pre code{
+    /* font-size: 12px; */
+}
