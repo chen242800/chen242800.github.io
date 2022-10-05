@@ -101,7 +101,12 @@ nav a.active{
 .aboutme-d-r table tr td {
     padding-right: 10px;
 }
-
+.aboutme-d-r ol{
+    padding-left: 10px;
+}
+.aboutme-d-r ol a{
+    color: #ff4d41;
+}
 .projects {
     background-color: snow;
 }

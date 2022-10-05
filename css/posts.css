@@ -18,25 +18,43 @@ header {
     /* background-color: aquamarine; */
 }
 
-.posts li {
+.posts a {
+    display: block;
     width: 800px;
     height: 160px;
     margin-bottom: 10px;
     /* border: 1px solid lightgray; */
     border-radius: 0.5em;
     background-color: white;
-
 }
-
-.posts li img{
+.posts a img{
     width: 240px;
     float: left;
     border-radius: 0.5em 0 0 0.5em;
 }
-.posts li .content{
+.posts a .des{
     float: left;
-    width: 5ß  00px;
+    width: 500px;
     height: 160px;
     margin-left: 30px;
     /* background-color: blue; */
+}
+.posts a .des h3{
+    margin-top: 5px;
+    margin-bottom: 13px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    }
+    .posts a .des p{
+        font-size: 14px;
+        color: grey;
+    }
+    
+.posts a:hover{
+    color: tomato;
+    box-shadow: 0 0 2px 2px lightgray;
+}
+.contents{
+   width: 960px; 
+   margin: 0 auto;
 }
