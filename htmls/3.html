@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="../base.css">
     <link rel="stylesheet" type="text/css" href="../index.css">
     <link rel="stylesheet" type="text/css" href="../css/posts.css">
+    <link rel="stylesheet" type="text/css" href="../prism/prism.css">
+    <link rel="stylesheet" type="text/css" href="../css/3.css">
 </head>
 <body>
     <header>
@@ -24,7 +26,59 @@
         </div>
     </header>
     <div class="contents">
+        <div class="cube">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="post-code">
+            <div class="left">
+                <pre><code class="language-html">
+<<span class="hljs-name">div class="cube"</span>>
+    <<span class="hljs-name">div class="front"</span>>front<<span class="hljs-name">/div</span>>
+    <<span class="hljs-name">div class="back"</span>>back<<span class="hljs-name">/div</span>>
+<<span class="hljs-name">/div</span>>                   
+                </code></pre>                
+            </div>
+            <div class="right">
+                <pre><code class="language-css">
+.cube{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    /* transform: rotateX(-20deg) rotateY(30deg);  */
+    transition: all 1s;
+    transform-style: preserve-3d;
+    text-align: center;
+    line-height: 200px;
+}
+.front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transform: translateZ(100px);
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: translateZ(-100px);
+    transform: rotateY(180deg);
+}
+.cube:hover{
+    transform: rotateY(180deg);
+}
+                </code></pre>  
+            </div>
+        </div>
         
     </div>
+    <script src="../prism/prism.js"></script>    
 </body>
 </html>

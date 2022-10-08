@@ -1,0 +1,33 @@
+.cube{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    /* transform: rotateX(-20deg) rotateY(30deg);  */
+    transition: all 1s;
+    transform-style: preserve-3d;
+    text-align: center;
+    line-height: 200px;
+}
+.front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transform: translateZ(100px);
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: translateZ(-100px);
+    transform: rotateY(180deg);
+}
+.cube:hover{
+    transform: rotateY(180deg);
+}

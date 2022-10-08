@@ -73,18 +73,3 @@ li:hover .txt{
     transform: translateY(-50px);
 }
 
-.post2 .left{
-    width: 470px; 
-    float: left;
-}
-
-.post2 .right{
-    width: 470px;
-    margin-left: 18px;
-    float: left;
-    height: auto;
-    border-right: 1px solid tomato;
-}
-.right pre code{
-    /* font-size: 12px; */
-}

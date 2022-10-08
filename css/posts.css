@@ -59,3 +59,18 @@ header {
    width: 960px; 
    margin: 30px auto;
 }
+.post-code .left{
+    width: 470px; 
+    float: left;
+}
+
+.post-code .right{
+    width: 470px;
+    margin-left: 18px;
+    float: left;
+    height: auto;
+    border-right: 1px solid tomato;
+}
+.right pre code{
+    /* font-size: 12px; */
+}
